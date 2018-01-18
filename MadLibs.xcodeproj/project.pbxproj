@@ -14,6 +14,7 @@
 		A12B74932010146700CE2B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12B74912010146700CE2B97 /* LaunchScreen.storyboard */; };
 		A12B749E2010146800CE2B97 /* MadLibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B749D2010146800CE2B97 /* MadLibsTests.swift */; };
 		A12B74A92010146800CE2B97 /* MadLibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B74A82010146800CE2B97 /* MadLibsUITests.swift */; };
+		A147527920101E680017AFF5 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A147527820101E680017AFF5 /* OtherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A12B74A42010146800CE2B97 /* MadLibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadLibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12B74A82010146800CE2B97 /* MadLibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibsUITests.swift; sourceTree = "<group>"; };
 		A12B74AA2010146800CE2B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A147527820101E680017AFF5 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A12B74882010146700CE2B97 /* AppDelegate.swift */,
 				A12B748A2010146700CE2B97 /* ViewController.swift */,
+				A147527820101E680017AFF5 /* OtherViewController.swift */,
 				A12B748C2010146700CE2B97 /* Main.storyboard */,
 				A12B748F2010146700CE2B97 /* Assets.xcassets */,
 				A12B74912010146700CE2B97 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A147527920101E680017AFF5 /* OtherViewController.swift in Sources */,
 				A12B748B2010146700CE2B97 /* ViewController.swift in Sources */,
 				A12B74892010146700CE2B97 /* AppDelegate.swift in Sources */,
 			);
@@ -428,6 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MadLibs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.MadLibs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MadLibs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.MadLibs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
